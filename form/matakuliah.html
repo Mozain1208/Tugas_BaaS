@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <a href="../display/display_matakuliah.php">Lihat Data Matkul</a>
+    <title>Form Mata Kuliah</title>
+</head>
+<body>
+    <h1>Form Input Mata Kuliah</h1>
+    <form action="../proccess/matakuliah_process.php" method="post">
+        <label for="kode_mk">Kode Mata Kuliah:</label><br>
+        <input type="text" id="kode_mk" name="kode_mk" required><br><br>
+
+        <label for="nama_mk">Nama Mata Kuliah:</label><br>
+        <input type="text" id="nama_mk" name="nama_mk" required><br><br>
+
+        <label for="sks">Jumlah SKS:</label><br>
+        <input type="number" id="sks" name="sks" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

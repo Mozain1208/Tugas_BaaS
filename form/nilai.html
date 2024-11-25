@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <a href="../display/display_nilai.php">Lihat Data Nilai Matkul Mahasiswa</a>
+    <title>Form Nilai</title>
+</head>
+<body>
+    <h1>Form Input Nilai</h1>
+    <form action="../proccess/nilai_process.php" method="post">
+        <label for="nim">NIM:</label><br>
+        <input type="text" id="nim" name="nim" required><br><br>
+
+        <label for="kode_mk">Kode Mata Kuliah:</label><br>
+        <input type="text" id="kode_mk" name="kode_mk" required><br><br>
+
+        <label for="nilai">Nilai:</label><br>
+        <input type="text" id="nilai" name="nilai" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

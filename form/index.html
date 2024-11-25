@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <a href="../display/display.php">Lihat Data Mahasiswa</a>
+    <title>Form Mahasiswa</title>
+    
+</head>
+<body>
+    <h1>Form Input Data Mahasiswa</h1>
+    <form action="../proccess/proccess.php" method="post">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="nim">NIM:</label><br>
+        <input type="text" id="nim" name="nim" required><br><br>
+
+        <label for="prodi">Prodi:</label><br>
+        <input type="text" id="prodi" name="prodi" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
